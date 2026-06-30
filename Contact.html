@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<title>Contact</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:serif;
+    background:linear-gradient(90deg,
+    rgba(9,9,121,1) 0%,
+    rgba(4,3,24,1) 100%);
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 60px;
+}
+
+.name{
+    font-size:35px;
+    font-weight:bold;
+    font-family:math;
+}
+
+.name a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ffcc00;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.userDesc{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.project1{
+    width:270px;
+    height:220px;
+    background:white;
+    border-radius:15px;
+    color:#012738;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    transition:.3s;
+}
+
+.project1:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.35);
+}
+
+.iconDiv{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.iconText{
+    font-size:22px;
+    text-align:center;
+    word-break:break-word;
+}
+
+.iconText a{
+    text-decoration:none;
+    color:#0A66C2;
+    font-weight:bold;
+}
+
+.iconText a:hover{
+    color:#ff9800;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.project1{
+    width:90%;
+    max-width:300px;
+}
+
+.iconText{
+    font-size:18px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="name">
+<a href="./index.html">Arun Jatti</a>
+</div>
+
+<nav>
+<ul>
+<li><a href="./index.html">HOME</a></li>
+<li><a href="./Contact.html">CONTACT</a></li>
+<li><a href="./PROJECTS.html">PROJECTS</a></li>
+<li><a href="./WORK EXPERIENCE.html">WORK EXPERIENCE</a></li>
+<li><a href="./SKILLS.html">SKILLS</a></li>
+<li><a href="./Arun__Resume.pdf">RESUME</a></li>
+</ul>
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="userDesc">
+
+<!-- Phone -->
+
+<div class="project1">
+<div class="iconDiv">
+<i class="fas fa-phone-alt"></i>
+</div>
+
+<div class="iconText">
+9902954125
+</div>
+</div>
+
+<!-- Email -->
+
+<div class="project1">
+<div class="iconDiv">
+<i class="fas fa-envelope"></i>
+</div>
+
+<div class="iconText">
+arunjatti227@gmail.com
+</div>
+</div>
+
+<!-- LinkedIn -->
+
+<div class="project1">
+<div class="iconDiv">
+<i class="fab fa-linkedin"></i>
+</div>
+
+<div class="iconText">
+<a href="https://www.linkedin.com/in/arun-jatti-2196853a2" target="_blank">
+Click Here
+</a>
+</div>
+</div>
+
+<!-- GitHub -->
+
+<div class="project1">
+<div class="iconDiv">
+<i class="fab fa-github"></i>
+</div>
+
+<div class="iconText">
+<a href="https://github.com/Arun-Jatti" target="_blank">
+Click Here
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
